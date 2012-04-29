@@ -1,0 +1,138 @@
+#include  <msp430x44x.h>
+
+NAME promena_konteksta
+        
+        PUBLIC sp_change_init
+        PUBLIC initialize_stack_idle
+        PUBLIC initialize_stack
+        PUBLIC context_switch
+        PUBLIC save_context
+        PUBLIC go_to_scheduler
+        PUBLIC save_context_ISR
+              
+        RSEG CODE
+
+        
+        
+sp_change_init
+        ;======================================================================
+       pop R14
+       mov R1,R12
+       push R14
+       ret;==================================================================== 
+initialize_stack_idle
+      pop R4
+      pop R5
+      pop R6
+      push R12; stavlja se vrednost PC na stek
+      PUSH #0x08 ;stavlja se vrednost SR na stek
+      push R13; stavljasju se registri na stek
+      push R12;
+      push R15;
+      push R14;
+      push R4; stavljasju se registri na stek
+      push R5;
+      push R6;
+      push R7;
+      push R8; stavljasju se registri na stek
+      push R9;
+      push R10;
+      push R11;
+      mov SP,R12; cuva se vrednost SP inicijalizovanog steka
+      push R6
+      push R5
+      push R4
+      ret;
+initialize_stack
+      mov SP,R5
+      mov R13,SP
+      push R12; stavlja se vrednost PC na stek
+      PUSH #0x08;stavlja se vrednost SR na stek
+      push #0x00;
+      push #0x00; stavljasju se registri na stek
+      push #0x00;
+      push #0x00;
+      push #0x00;
+      push #0x00; stavljasju se registri na stek
+      push #0x00;
+      push #0x00;
+      push #0x00;
+      push #0x00; stavljasju se registri na stek
+      push #0x00;
+      push #0x00;
+      mov SP,R12; cuva se vrednost SP inicijalizovanog steka
+      mov R5,SP
+      ret;
+context_switch
+      mov R12,SP; uzima se stek pointer novog taska koji treba da bude rasporedjen
+      
+      pop R11
+      pop R10
+      pop R9
+      pop R8
+      pop R7
+      pop R6
+      pop R5
+      pop R4
+      pop R14; skidaju se redom registri i SR a ostavlja se PC koji ce po izlasku iz funkcije 
+      pop R15; preneti nit izvrsavanja na drugi task
+      pop R12
+      pop R13
+      reti
+     
+     
+save_context
+       push R13
+       pop R13 
+       pop R13
+       push SR
+      // dec SP; ovo mora da se odkomentarise kad se radi u FET debug modu
+      dec SP;;u simulatoru samo jedan dekrement je isto kao dva u FET debug?!!
+       push R12
+       push R15;
+       push R14;
+       push R4; stavljasju se registri na stek
+       push R5;
+       push R6;
+       push R7;
+       push R8; stavljasju se registri na stek
+       push R9;
+       push R10;
+       push R11;
+       mov SP,R12; cuva se vrednost SP inicijalizovanog steka
+       push R13
+       ret;
+
+go_to_scheduler
+      pop R15
+      pop R14
+      pop R13
+      push R12; pc koji ukazuje na scheduler_ISR
+      push #0x08;SR +++++++ ovde kad bi dozvolio prekid+++++++++++++ 
+      push #0x00;Reg
+      push #0x00;reg
+      push #0x00;reg
+      push #0x00;reg
+      push R13
+      push R14
+      push R15
+      ret;   
+save_context_ISR
+      pop R15 ;vrati posle
+      pop R14
+      pop R13
+      push R4; stavljasju se registri na stek
+      push R5;
+      push R6;
+      push R7;
+      push R8; stavljasju se registri na stek
+      push R9;
+      push R10;
+      push R11;
+      mov SP,R12
+      push R13
+      push R14
+      push R15; vrati posle
+      ret
+
+END
