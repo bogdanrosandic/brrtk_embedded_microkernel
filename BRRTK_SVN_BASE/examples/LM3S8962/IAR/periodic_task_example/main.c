@@ -1,3 +1,10 @@
+/*
+
+ * This file is application example for usage of the BRRTK source code.
+ * 
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
+ *
+ */
 
 /*TARGET SPECIFIC--> LM3S8962*/
 #include "inc/hw_types.h"

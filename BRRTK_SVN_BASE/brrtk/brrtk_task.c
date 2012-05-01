@@ -1,7 +1,7 @@
 /*
  * This file is part of the BRRTK source code.
  * 
- * Author: Bogdan Rosandic <bogdanrosandic@gmail.com.se>
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
  *
  */
 

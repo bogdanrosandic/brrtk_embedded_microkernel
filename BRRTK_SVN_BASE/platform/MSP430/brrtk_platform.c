@@ -1,3 +1,11 @@
+/*
+
+ * This file is part of the BRRTK source code.
+ * 
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
+ *
+ */
+
 #include "brrtk_platform.h"
 #include "brrtk_task.h"
 #include  <msp430x44x.h>

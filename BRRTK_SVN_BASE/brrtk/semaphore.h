@@ -1,3 +1,10 @@
+/*
+ * This file is part of the BRRTK source code.
+ * 
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
+ *
+ */
+
 #ifndef __SEMAPHORE_H__
 #define __SEMAPHORE_H__
 #include "brrtk_app.h"

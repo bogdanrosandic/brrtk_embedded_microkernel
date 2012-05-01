@@ -1,3 +1,10 @@
+/*
+
+ * This file is application example for usage of the BRRTK source code.
+ * 
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
+ *
+ */
 
 /*TARGET SPECIFIC--> MSP430*/
 #include  <msp430x44x.h>

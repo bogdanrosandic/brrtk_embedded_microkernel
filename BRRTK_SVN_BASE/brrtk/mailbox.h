@@ -1,3 +1,11 @@
+/*
+
+ * This file is part of the BRRTK source code.
+ * 
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
+ *
+ */
+
 #ifndef __MAILBOX_H__
 #define __MAILBOX_H__
 #include "brrtk_app.h"
