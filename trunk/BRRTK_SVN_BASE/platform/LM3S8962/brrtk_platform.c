@@ -1,3 +1,11 @@
+/*
+
+ * This file is part of the BRRTK source code.
+ * 
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
+ *
+ */
+
 #include "brrtk_platform.h"
 
 #define portNVIC_PENDSVSET			0x10000000

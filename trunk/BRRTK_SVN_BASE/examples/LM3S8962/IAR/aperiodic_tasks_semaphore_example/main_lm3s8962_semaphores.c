@@ -1,3 +1,10 @@
+/*
+
+ * This file is application example for usage of the BRRTK source code.
+ * 
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
+ *
+ */
 //main semaphore test
 /*TARGET SPECIFIC--> LM3S8962*/
 #include "driverlib/debug.h"

@@ -1,3 +1,12 @@
+/*
+
+ * This file is part of the BRRTK source code.
+ * 
+ * Author: Bogdan Rosandic <bogdanrosandic@gmail.com>
+ *
+ */
+
+
 #include "brrtk_app.h"
 #include "brrtk_task.h"
 #include "semaphore.h"
