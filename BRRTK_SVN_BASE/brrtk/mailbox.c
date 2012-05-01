@@ -194,11 +194,11 @@ void BR_Send_Mbx(brrtk_MBXCBptr p_mbx, void * p_mail)
         {
             for (int i=0; i < p_mbx->message_lenght;i++ )
             {
-                *((char*)p_mbx->write_pointer+i)= *((char*)p_mail+i);/*upis poruke u mailbox*/
+                *((char*)p_mbx->write_pointer+i)= *((char*)p_mail+i);
             }
             if (p_mbx->write_pointer==p_mbx->mailbox_buffer_tail)
             {
-                p_mbx->write_pointer=p_mbx->mailbox_buffer;//onda treba da ukazuje na prvi clan 
+                p_mbx->write_pointer=p_mbx->mailbox_buffer;
             }
             else
             {
@@ -504,7 +504,7 @@ long int  BR_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned lon
             p_mbx->avaliable_space++;
             if (p_mbx->read_pointer==p_mbx->mailbox_buffer_tail)
             {
-                p_mbx->read_pointer=p_mbx->mailbox_buffer;//onda treba da ukazuje na prvi clan 
+                p_mbx->read_pointer=p_mbx->mailbox_buffer;
             }
             else
             {
@@ -585,7 +585,7 @@ long int  BR_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned lon
             }
             else if (temp != 0xffffffff)
             {
-                /*osvezi listu semofara koji cekaju tajm aut*/
+                /*refresh semaphore list waiting for timeout*/
             }
         }
     }

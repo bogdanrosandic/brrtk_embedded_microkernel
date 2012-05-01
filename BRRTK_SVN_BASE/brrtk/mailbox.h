@@ -14,17 +14,17 @@ typedef struct brrtk_MBXCB *brrtk_MBXCBptr;
 
 typedef struct brrtk_MBXCB
 
-{    unsigned char usage;  //0 unused, 1 used
-    unsigned char message_lenght;/*duzina pojedinacne poruke*/
-    unsigned int number_of_messages;/*maksimalni broj poruka u mailbox-u*/
+{    unsigned char usage;  
+    unsigned char message_lenght;
+    unsigned int number_of_messages;
     unsigned int  avaliable_space;
     unsigned long timeout_lwIP;
-    brrtk_TCBptr waiting_list_send_first;/*liste cekanja za slanje poruke preko mailbox-a*/
+    brrtk_TCBptr waiting_list_send_first;
     brrtk_TCBptr waiting_list_send_last;  
-    brrtk_TCBptr waiting_list_recieve_first;/*liste cekanja za prijem poruka iz mailbox-a*/
+    brrtk_TCBptr waiting_list_recieve_first;
     brrtk_TCBptr waiting_list_recieve_last;
     void * mailbox_buffer_tail;
-    void * mailbox_buffer;            /*--pokazivac na buffer mailbox-a--*/
+    void * mailbox_buffer;
     void * write_pointer;
     void * read_pointer;
     
@@ -40,7 +40,7 @@ extern long int BR_Recieve_Mbx_wait(brrtk_MBXCBptr p_mbx, void * p_dest,unsigned
 extern char BR_Recieve_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_dest);
 extern long int mbx_timeout_tick_refresh(void);
 char Mailbox_timeouted(brrtk_MBXCBptr p_mbx);
-/*treba dodati funkciju koja omogucava blokiranje taska na odredjeno vreme, task ceka poruku odredjeno vreme nakon cega se deblokira*/
+
 
 
 #endif /*__MAILBOX_H__*/
