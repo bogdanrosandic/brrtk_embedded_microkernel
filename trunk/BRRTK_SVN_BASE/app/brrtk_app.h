@@ -56,6 +56,7 @@
 
 //#define MSP430
 #define LM3S8962_ARM_CORTEX_M3
+//#define STM32F107_ARM_CORTEX_M3
 #endif /* __BRRTK_APP_H__ */
 
 
