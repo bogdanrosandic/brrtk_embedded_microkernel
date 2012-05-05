@@ -182,10 +182,11 @@ void insert_semaphore_in_timeout_list(SBCBptr p_Cnt_Semaphore)
     {
         if (p_Cnt_Semaphore->timeout_lwIP <= sem_timeots_lwIP->timeout_lwIP )
         { 
+            long int pomocna;
             p_Cnt_Semaphore->pNext_lwIP=temp;
             sem_timeots_lwIP=p_Cnt_Semaphore;
             temp->timeout_lwIP-=p_Cnt_Semaphore->timeout_lwIP;
-            long int pomocna=temp->timeout_lwIP;
+            pomocna=temp->timeout_lwIP;
             while(temp->pNext_lwIP)
             {
                 temp=temp->pNext_lwIP;
@@ -321,6 +322,7 @@ long int  BRRTK_Lock_Cnt_Sem_wait(SBCBptr p_Cnt_Semaphore, long int timeout_ms){
     }
     else
     {
+        long int temp;
         if (timeout_ms > 0)
         {
             p_Cnt_Semaphore->timeout_lwIP=timeout_ms;
@@ -354,11 +356,12 @@ long int  BRRTK_Lock_Cnt_Sem_wait(SBCBptr p_Cnt_Semaphore, long int timeout_ms){
                 p_Cnt_Semaphore->task_waiting_list_aperiodic=insert_TCB_in_EDF_sem(BR_Active_TCB,p_Cnt_Semaphore->task_waiting_list_aperiodic);
             }
         }
+        
         setBlockingCall();
         brrtk_scheduler();
         brrtk_global_disable_interrupts();
         p_Cnt_Semaphore->brrtk_semaphore_usage_counter--;
-        long int temp= p_Cnt_Semaphore->timeout_lwIP;
+        temp= p_Cnt_Semaphore->timeout_lwIP;
       
         if (temp != 0xffffffff)
         {
@@ -377,9 +380,9 @@ void BRRTK_Release_Cnt_Sem(SBCBptr p_Cnt_Semaphore)
     p_Cnt_Semaphore->brrtk_semaphore_usage_counter++;
     if (p_Cnt_Semaphore->task_waiting_list_aperiodic!=NULL)
     {
-     
+        brrtk_TCBptr temp;
         p_Cnt_Semaphore->task_waiting_list_aperiodic->brrtk_task_state=READY;
-        brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_aperiodic->pNext;
+        temp=p_Cnt_Semaphore->task_waiting_list_aperiodic->pNext;
              
         insert_TCB_in_EDF_list(p_Cnt_Semaphore->task_waiting_list_aperiodic);
 
@@ -400,8 +403,9 @@ void BRRTK_Release_Cnt_Sem(SBCBptr p_Cnt_Semaphore)
    {
         if (p_Cnt_Semaphore->task_waiting_list_medium)
         {
+            brrtk_TCBptr temp;
             p_Cnt_Semaphore->task_waiting_list_medium->brrtk_task_state=READY;
-            brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_medium->pNext;
+            temp=p_Cnt_Semaphore->task_waiting_list_medium->pNext;
                 
             insert_TCB_in_Medium_list(p_Cnt_Semaphore->task_waiting_list_medium);
     
@@ -423,8 +427,9 @@ void BRRTK_Release_Cnt_Sem(SBCBptr p_Cnt_Semaphore)
         {
             if (p_Cnt_Semaphore->task_waiting_list_periodic!=NULL)
             {
+                brrtk_TCBptr temp;
                 p_Cnt_Semaphore->task_waiting_list_periodic->brrtk_task_state=READY;
-                brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_periodic->pNext;
+                temp=p_Cnt_Semaphore->task_waiting_list_periodic->pNext;
                 insert_TCB_in_RM_list(p_Cnt_Semaphore->task_waiting_list_periodic);
                 p_Cnt_Semaphore->task_waiting_list_periodic=temp;
                 temp->pPrev=NULL;
@@ -455,8 +460,9 @@ void BRRTK_Release_Cnt_Sem_ISR(SBCBptr p_Cnt_Semaphore)
     p_Cnt_Semaphore->brrtk_semaphore_usage_counter++;
     if (p_Cnt_Semaphore->task_waiting_list_aperiodic!=NULL)
     {
+        brrtk_TCBptr temp;
         p_Cnt_Semaphore->task_waiting_list_aperiodic->brrtk_task_state=READY;
-        brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_aperiodic->pNext;
+        temp=p_Cnt_Semaphore->task_waiting_list_aperiodic->pNext;
         insert_TCB_in_EDF_list(p_Cnt_Semaphore->task_waiting_list_aperiodic);
         p_Cnt_Semaphore->task_waiting_list_aperiodic=temp;
         temp->pPrev=NULL;
@@ -466,8 +472,9 @@ void BRRTK_Release_Cnt_Sem_ISR(SBCBptr p_Cnt_Semaphore)
     {
         if (p_Cnt_Semaphore->task_waiting_list_medium)
         {
+            brrtk_TCBptr temp;
             p_Cnt_Semaphore->task_waiting_list_medium->brrtk_task_state=READY;
-            brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_medium->pNext;
+            temp=p_Cnt_Semaphore->task_waiting_list_medium->pNext;
             insert_TCB_in_Medium_list(p_Cnt_Semaphore->task_waiting_list_medium);
             p_Cnt_Semaphore->task_waiting_list_medium=temp;
             temp->pPrev=NULL;
@@ -477,8 +484,9 @@ void BRRTK_Release_Cnt_Sem_ISR(SBCBptr p_Cnt_Semaphore)
         {
             if (p_Cnt_Semaphore->task_waiting_list_periodic!=NULL)
             {
+                brrtk_TCBptr temp;
                 p_Cnt_Semaphore->task_waiting_list_periodic->brrtk_task_state=READY;
-                brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_periodic->pNext;
+                temp=p_Cnt_Semaphore->task_waiting_list_periodic->pNext;
                 insert_TCB_in_RM_list(p_Cnt_Semaphore->task_waiting_list_periodic);
                 p_Cnt_Semaphore->task_waiting_list_periodic=temp;
                 temp->pPrev=NULL;
@@ -501,9 +509,9 @@ void BRRTK_Release_Cnt_Sem_no_sched(SBCBptr p_Cnt_Semaphore)
     p_Cnt_Semaphore->brrtk_semaphore_usage_counter++;
     if (p_Cnt_Semaphore->task_waiting_list_aperiodic!=NULL)
     {
-     
+        brrtk_TCBptr temp;
         p_Cnt_Semaphore->task_waiting_list_aperiodic->brrtk_task_state=READY;
-        brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_aperiodic->pNext;
+        temp=p_Cnt_Semaphore->task_waiting_list_aperiodic->pNext;
         insert_TCB_in_EDF_list(p_Cnt_Semaphore->task_waiting_list_aperiodic);
         p_Cnt_Semaphore->task_waiting_list_aperiodic=temp;
         temp->pPrev=NULL;
@@ -513,8 +521,9 @@ void BRRTK_Release_Cnt_Sem_no_sched(SBCBptr p_Cnt_Semaphore)
     {
         if(p_Cnt_Semaphore->task_waiting_list_medium!=NULL)
         {
+            brrtk_TCBptr temp;
             p_Cnt_Semaphore->task_waiting_list_medium->brrtk_task_state=READY;
-            brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_medium->pNext;
+            temp=p_Cnt_Semaphore->task_waiting_list_medium->pNext;
                 
             insert_TCB_in_Medium_list(p_Cnt_Semaphore->task_waiting_list_medium);
     
@@ -526,8 +535,9 @@ void BRRTK_Release_Cnt_Sem_no_sched(SBCBptr p_Cnt_Semaphore)
         {
             if (p_Cnt_Semaphore->task_waiting_list_periodic!=NULL)
             {
+                brrtk_TCBptr temp;
                 p_Cnt_Semaphore->task_waiting_list_periodic->brrtk_task_state=READY;
-                brrtk_TCBptr temp=p_Cnt_Semaphore->task_waiting_list_periodic->pNext;
+                temp=p_Cnt_Semaphore->task_waiting_list_periodic->pNext;
                 
                 insert_TCB_in_RM_list(p_Cnt_Semaphore->task_waiting_list_periodic);
     

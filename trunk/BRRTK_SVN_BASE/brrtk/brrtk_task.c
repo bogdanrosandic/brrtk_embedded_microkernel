@@ -303,7 +303,8 @@ void BRRTK_Initialize(void)
 { 
 
     brrtk_TCBptr pomoc;
-    for(int i = 0; i<(MAXTASKS+1);i++)
+    int i;
+    for(i = 0; i<(MAXTASKS+1);i++)
     {
         if (!BR_FreeMem_TCB)
         {
@@ -319,7 +320,7 @@ void BRRTK_Initialize(void)
   // initializememory pool for allocation of PeridCB
     {
         brrtk_TimeCBptr pomoc;
-        for(int i = 0; i<(MAX_TIME_PER+1);i++)
+        for(i = 0; i<(MAX_TIME_PER+1);i++)
         {
             if (!BR_FreeMem_PeriodCB)
             {
@@ -336,7 +337,7 @@ void BRRTK_Initialize(void)
   //  initializememory pool for allocation of DelayCB
     {
         brrtk_DelayCBptr pomoc;
-        for(int i = 0; i<(MAX_TIME_APER);i++)
+        for(i = 0; i<(MAX_TIME_APER);i++)
         {
             if (!BR_FreeMem_AperiodCB)
             {
@@ -373,8 +374,10 @@ void BRRTK_Initialize(void)
 
 brrtk_TCBptr BRRTK_CreateNewTask_aperiodic(void (*task)(void * arg  ), void *  ptos, brrtk_DelayCBptr * aper_timer ,unsigned int deadline_cnt)
 { 
+    brrtk_TCBptr pomoc;
+    brrtk_DelayCBptr pomoc_vreme;
     brrtk_global_disable_interrupts();
-    brrtk_TCBptr pomoc=BR_FreeMem_TCB;
+    pomoc=BR_FreeMem_TCB;
     BR_FreeMem_TCB=pomoc->pNext;
     pomoc->brrtk_task_pc=task;
     pomoc->brrtk_task_sp=ptos;
@@ -384,7 +387,7 @@ brrtk_TCBptr BRRTK_CreateNewTask_aperiodic(void (*task)(void * arg  ), void *  p
     
     pomoc->pTimeCB=NULL;
     
-    brrtk_DelayCBptr pomoc_vreme=BR_FreeMem_AperiodCB;
+    pomoc_vreme=BR_FreeMem_AperiodCB;
     BR_FreeMem_AperiodCB=pomoc_vreme->pNext;  
 
     pomoc->pDelayCB=pomoc_vreme;
@@ -421,8 +424,10 @@ brrtk_TCBptr BRRTK_CreateNewTask_aperiodic(void (*task)(void * arg  ), void *  p
 
 brrtk_TCBptr BRRTK_CreateNewTask_aperiodic_medium(void (*task)(void * arg ), void *  ptos, int Priority, brrtk_DelayCBptr * aper_timer ,unsigned int deadline_cnt)
 { 
+    brrtk_TCBptr pomoc;
+    brrtk_DelayCBptr pomoc_vreme;
     brrtk_global_disable_interrupts();
-    brrtk_TCBptr pomoc=BR_FreeMem_TCB;
+    pomoc=BR_FreeMem_TCB;
     BR_FreeMem_TCB=pomoc->pNext;
 
     pomoc->brrtk_task_pc=task;
@@ -434,8 +439,7 @@ brrtk_TCBptr BRRTK_CreateNewTask_aperiodic_medium(void (*task)(void * arg ), voi
     
     
     pomoc->pTimeCB=NULL;
-     
-    brrtk_DelayCBptr pomoc_vreme=BR_FreeMem_AperiodCB;
+    pomoc_vreme=BR_FreeMem_AperiodCB;
     BR_FreeMem_AperiodCB=pomoc_vreme->pNext;
     
     pomoc->pDelayCB=pomoc_vreme;
@@ -473,8 +477,10 @@ brrtk_TCBptr BRRTK_CreateNewTask_aperiodic_medium(void (*task)(void * arg ), voi
 }
 brrtk_TCBptr BRRTK_CreateNewTask_periodic(void (*task)(void * arg ), void *  ptos, int Priority,unsigned int rdy_cnt)
 { 
+    brrtk_TCBptr pomoc;
+    brrtk_TimeCBptr pomoc_vreme;
     brrtk_global_disable_interrupts();
-    brrtk_TCBptr pomoc=BR_FreeMem_TCB;
+    pomoc=BR_FreeMem_TCB;
     BR_FreeMem_TCB=pomoc->pNext;
     
     pomoc->brrtk_task_pc=task;
@@ -485,7 +491,7 @@ brrtk_TCBptr BRRTK_CreateNewTask_periodic(void (*task)(void * arg ), void *  pto
       
     pomoc->pDelayCB=NULL;
     
-    brrtk_TimeCBptr pomoc_vreme=BR_FreeMem_PeriodCB;
+    pomoc_vreme=BR_FreeMem_PeriodCB;
     BR_FreeMem_PeriodCB=pomoc_vreme->pNext;
     pomoc->pTimeCB=pomoc_vreme;
         
