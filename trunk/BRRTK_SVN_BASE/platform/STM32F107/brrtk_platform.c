@@ -16,14 +16,14 @@
 
 void brrtk_global_disable_interrupts(void)
 {
-      IntMasterDisable();
+      
 }
 /*---------------------------------------
     This function globaly enables interrupts
  ----------------------------------------*/
 void brrtk_global_enable_interrupts(void)
 {
-    IntMasterEnable();
+   
 }
 
 void brrtk_TriggerReturnFromInterruptHandler(void)
@@ -70,7 +70,7 @@ void Idle_Task(void * arg)
 {
   while(1)
   {
-      IntMasterEnable();
+      
   }
 }
 
@@ -82,34 +82,10 @@ void Idle_Task(void * arg)
 void Hardware_Init(void )
 {
  
-    SysCtlClockSet(SYSCTL_SYSDIV_1 |  SYSCTL_USE_OSC | SYSCTL_OSC_MAIN |
-                   SYSCTL_XTAL_8MHZ);//50Mhz  SYSCTL_USE_OSC.
+  
     
    
-    IntMasterEnable();
- 
- 
-  
-    SysTickDisable();//
-    SysTickPeriodSet(SysCtlClockGet()/1000);// tick 1ms
-    //!!!!!!!!!!!!!!!!!!!!!!!!! SysTickIntRegister(&SysTick_Handler);
-    SysTickIntEnable();
-    SysTickEnable();//
-  
-    IntPriorityGroupingSet(3);//moguce gnezdenje prekida, sva tri bita dostupna za podesavanje prekida
-    //IntPriorityGroupingSet(0);// nema gnezdenja prekida
-    IntPriorityGroupingGet();
-    //IntPrioritySet(INT_ETH, 5<<5);
-    IntPrioritySet(FAULT_USAGE,(2<<5));// pomera se za pet mesta u levo jer su samo najvisa tri bita dostupna za podesavanje prioriteta
-    IntPrioritySet(FAULT_BUS,(2<<5));
-    IntPrioritySet(FAULT_SVCALL,(3<<5));
-    IntPrioritySet(FAULT_SYSTICK ,(6<<5));
-    IntPrioritySet(FAULT_PENDSV,(7<<5));
-    
-    IntEnable(FAULT_PENDSV);
-    IntEnable(FAULT_BUS);
-    IntEnable(FAULT_USAGE);
-    IntEnable(FAULT_SYSTICK);
+   
 }
 unsigned int Num_of_ticks;
 void SysTick_Handler(void)
