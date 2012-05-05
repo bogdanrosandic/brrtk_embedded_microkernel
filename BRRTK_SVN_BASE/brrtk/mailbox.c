@@ -80,7 +80,7 @@ void ActiveTCB_recieve_mbx_wait(brrtk_MBXCBptr p_mbx)
 
 void ubaci_mailbox_u_timeout_listu(brrtk_MBXCBptr p_mbx)
 {
-  
+    long int pomocna;
     struct brrtk_MBXCB * temp=mbx_timeots_lwIP;
     if (!temp)
     {
@@ -93,7 +93,7 @@ void ubaci_mailbox_u_timeout_listu(brrtk_MBXCBptr p_mbx)
             p_mbx->pNext_lwIP=temp;
             mbx_timeots_lwIP=p_mbx;
             temp->timeout_lwIP-=p_mbx->timeout_lwIP; 
-            long int pomocna=temp->timeout_lwIP;
+            pomocna=temp->timeout_lwIP;
             while(temp->pNext_lwIP)
             {
                 temp=temp->pNext_lwIP;
@@ -196,12 +196,14 @@ void BR_Create_Mbx (brrtk_MBXCBptr p_mbx,unsigned char msg_lngt,unsigned int num
 
 void BR_Send_Mbx(brrtk_MBXCBptr p_mbx, void * p_mail)
 {
+    
     while (1)
-    {
+    {   
         brrtk_global_disable_interrupts();
         if (p_mbx->avaliable_space)
         {
-            for (int i=0; i < p_mbx->message_lenght;i++ )
+            int i;
+            for (i=0; i < p_mbx->message_lenght;i++ )
             {
                 *((char*)p_mbx->write_pointer+i)= *((char*)p_mail+i);
             }
@@ -291,7 +293,8 @@ void BR_Recieve_Mbx (brrtk_MBXCBptr p_mbx, void * p_dest)
         brrtk_global_disable_interrupts();
         if (p_mbx->avaliable_space!=p_mbx->number_of_messages)
         {
-            for (int i=0; i < p_mbx->message_lenght;i++ )
+            int i;
+            for (i=0; i < p_mbx->message_lenght;i++ )
             {
                 *((char*)p_dest+i)= *((char*)p_mbx->read_pointer+i);
             }
@@ -378,7 +381,8 @@ char BR_Send_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_mail)
 {
     if (p_mbx->avaliable_space)
     {
-        for (int i=0; i < p_mbx->message_lenght;i++ )
+        int i;
+        for (i=0; i < p_mbx->message_lenght;i++ )
         {
             *((char*)p_mbx->write_pointer+i)= *((char*)p_mail+i);
         }
@@ -439,7 +443,8 @@ char BR_Recieve_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_dest)
 {
     if (p_mbx->avaliable_space!=p_mbx->number_of_messages)
     {
-        for (int i=0; i < p_mbx->message_lenght;i++ )
+        int i;
+        for (i=0; i < p_mbx->message_lenght;i++ )
         {
             *((char*)p_dest+i)= *((char*)p_mbx->read_pointer+i);
         }
@@ -506,7 +511,8 @@ long int  BR_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned lon
     {
         if (p_mbx->avaliable_space!=p_mbx->number_of_messages)
         {
-            for (int i=0; i < p_mbx->message_lenght;i++ )
+            int i;
+            for (i=0; i < p_mbx->message_lenght;i++ )
             {
                 *((char*)p_dest+i)= *((char*)p_mbx->read_pointer+i);
             }
@@ -560,6 +566,7 @@ long int  BR_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned lon
         }
         else
         {
+            long int temp;
             BR_Active_TCB->brrtk_task_state=WAITING;
             if (BR_Active_TCB->pTimeCB)
             {
@@ -587,7 +594,7 @@ long int  BR_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned lon
             setBlockingCall();
             brrtk_scheduler(); 
             brrtk_global_disable_interrupts();
-            long int temp= p_mbx->timeout_lwIP;
+            temp= p_mbx->timeout_lwIP;
             if (temp == 0xffffffff)
             {
                 return temp;

@@ -81,7 +81,7 @@ void go_to_scheduler(int);
     Ussually it should be defined in 
     brrtk_platform_asm.s.
  ----------------------------------------*/
-void * save_context_ISR(/*int*/);
+void * save_context_ISR(void/*int*/);
 
 /*---------------------------------------
     This function saves context.
