@@ -129,6 +129,10 @@ void Hardware_Init(void )
   //  NVIC_SystemHandlerConfig(SystemHandler_UsageFault, ENABLE);
   //  NVIC_SystemHandlerConfig(SystemHandler_BusFault, ENABLE);
   //  NVIC_SystemHandlerConfig(SystemHandler_PSV, ENABLE); 
+    NVIC_EnableIRQ(BusFault_IRQn);
+    NVIC_EnableIRQ(PendSV_IRQn);
+    NVIC_EnableIRQ(UsageFault_IRQn);
+    NVIC_EnableIRQ(SysTick_IRQn);
     printf("\n\[BTR]Hardware_Init-> line132 (brrtk_platform.c)init_ok\n\r");
 }
 unsigned int Num_of_ticks;
