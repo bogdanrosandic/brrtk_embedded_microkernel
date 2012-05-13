@@ -37,7 +37,7 @@ extern void remove_TCB_low_ready_list(brrtk_TCBptr current_TCB);
 extern void remove_TCB_medium_ready_list(brrtk_TCBptr current_TCB);
 extern void remove_TCB_Aperiodic_ready_list(brrtk_TCBptr current_TCB);
 
-int broj_kreiranih_mailbox=0;
+
 
 void ActiveTCB_send_mbx_wait(brrtk_MBXCBptr p_mbx)
 {
@@ -78,9 +78,9 @@ void ActiveTCB_recieve_mbx_wait(brrtk_MBXCBptr p_mbx)
   /*as a result this call places TCB of current executing task is placed in mailbox waiting list*/
 }
 
-void ubaci_mailbox_u_timeout_listu(brrtk_MBXCBptr p_mbx)
+void add_mailbox_to_timeout_list(brrtk_MBXCBptr p_mbx)
 {
-    long int pomocna;
+    long int help_var;
     struct brrtk_MBXCB * temp=mbx_timeots_lwIP;
     if (!temp)
     {
@@ -93,11 +93,11 @@ void ubaci_mailbox_u_timeout_listu(brrtk_MBXCBptr p_mbx)
             p_mbx->pNext_lwIP=temp;
             mbx_timeots_lwIP=p_mbx;
             temp->timeout_lwIP-=p_mbx->timeout_lwIP; 
-            pomocna=temp->timeout_lwIP;
+            help_var=temp->timeout_lwIP;
             while(temp->pNext_lwIP)
             {
                 temp=temp->pNext_lwIP;
-                temp->timeout_lwIP +=pomocna;
+                temp->timeout_lwIP +=help_var;
             }
         }
         else 
@@ -218,36 +218,36 @@ void BR_Send_Mbx(brrtk_MBXCBptr p_mbx, void * p_mail)
             p_mbx->avaliable_space--;
             if (p_mbx->waiting_list_recieve_first)
             {
-                brrtk_TCBptr pomoc=p_mbx->waiting_list_recieve_first;
+                brrtk_TCBptr help_var=p_mbx->waiting_list_recieve_first;
                 p_mbx->waiting_list_recieve_first=  p_mbx->waiting_list_recieve_first->pNext;
                 p_mbx->waiting_list_recieve_first->pPrev=NULL;
                 if (!p_mbx->waiting_list_recieve_first)
                 {
                     p_mbx->waiting_list_recieve_last=NULL;
                 }
-                if (pomoc->pTimeCB)
+                if (help_var->pTimeCB)
                 {
-                    if (pomoc->brrtk_task_Priority < MED_BND_RM)
+                    if (help_var->brrtk_task_Priority < MED_BND_RM)
                     {
-                        insert_TCB_in_Medium_list(pomoc); 
+                        insert_TCB_in_Medium_list(help_var); 
                     }
                     else
                     {
-                        insert_TCB_in_RM_list(pomoc);
+                        insert_TCB_in_RM_list(help_var);
                     }
                 }
                 else
                 {
-                    if (pomoc->brrtk_task_Priority > 0)
+                    if (help_var->brrtk_task_Priority > 0)
                     {
-                        insert_TCB_in_Medium_list(pomoc);
+                        insert_TCB_in_Medium_list(help_var);
                     }
                     else
                     {
-                        insert_TCB_in_EDF_list(pomoc);   
+                        insert_TCB_in_EDF_list(help_var);   
                     }
                 }
-                pomoc->brrtk_task_state=READY;
+                help_var->brrtk_task_state=READY;
                 setBlockingCall();
                 brrtk_scheduler();
             }
@@ -309,36 +309,36 @@ void BR_Recieve_Mbx (brrtk_MBXCBptr p_mbx, void * p_dest)
             }
             if (p_mbx->waiting_list_send_first)
             {
-                brrtk_TCBptr pomoc=p_mbx->waiting_list_send_first;
+                brrtk_TCBptr help_var=p_mbx->waiting_list_send_first;
                 p_mbx->waiting_list_send_first=  p_mbx->waiting_list_send_first->pNext;
                 p_mbx->waiting_list_send_first->pPrev=NULL;
                 if (!p_mbx->waiting_list_send_first)
                 {
                     p_mbx->waiting_list_send_last=NULL;
                 }
-                if (pomoc->pTimeCB)
+                if (help_var->pTimeCB)
                 {
-                    if (pomoc->brrtk_task_Priority < MED_BND_RM)
+                    if (help_var->brrtk_task_Priority < MED_BND_RM)
                     {
-                        insert_TCB_in_Medium_list(pomoc);
+                        insert_TCB_in_Medium_list(help_var);
                     }
                     else
                     {
-                        insert_TCB_in_RM_list(pomoc);
+                        insert_TCB_in_RM_list(help_var);
                     }
                 }
                 else
                 {
-                    if (pomoc->brrtk_task_Priority > 0)
+                    if (help_var->brrtk_task_Priority > 0)
                     {
-                        insert_TCB_in_Medium_list(pomoc);
+                        insert_TCB_in_Medium_list(help_var);
                     }
                     else
                     {
-                        insert_TCB_in_EDF_list(pomoc);
+                        insert_TCB_in_EDF_list(help_var);
                     }
                 }
-                pomoc->brrtk_task_state=READY;
+                help_var->brrtk_task_state=READY;
                 setBlockingCall();
                 brrtk_scheduler();
             }
@@ -398,36 +398,36 @@ char BR_Send_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_mail)
       
         if (p_mbx->waiting_list_recieve_first)
         {
-            brrtk_TCBptr pomoc=p_mbx->waiting_list_recieve_first;
+            brrtk_TCBptr help_var=p_mbx->waiting_list_recieve_first;
             p_mbx->waiting_list_recieve_first=  p_mbx->waiting_list_recieve_first->pNext;
             p_mbx->waiting_list_recieve_first->pPrev=NULL;
             if (!p_mbx->waiting_list_recieve_first)
             {
                 p_mbx->waiting_list_recieve_last=NULL;
             }
-            if (pomoc->pTimeCB)
+            if (help_var->pTimeCB)
             {
-                if (pomoc->brrtk_task_Priority < MED_BND_RM)
+                if (help_var->brrtk_task_Priority < MED_BND_RM)
                 {
-                    insert_TCB_in_Medium_list(pomoc);
+                    insert_TCB_in_Medium_list(help_var);
                 }
                 else
                 {
-                    insert_TCB_in_RM_list(pomoc);
+                    insert_TCB_in_RM_list(help_var);
                 }
             }
             else
             {
-                if (pomoc->brrtk_task_Priority > 0)
+                if (help_var->brrtk_task_Priority > 0)
                 {
-                    insert_TCB_in_Medium_list(pomoc);
+                    insert_TCB_in_Medium_list(help_var);
                 }
                 else
                 {
-                    insert_TCB_in_EDF_list(pomoc);
+                    insert_TCB_in_EDF_list(help_var);
                 }
             }
-            pomoc->brrtk_task_state=READY;
+            help_var->brrtk_task_state=READY;
             setSchedulerStarted();
         }
       
@@ -459,36 +459,36 @@ char BR_Recieve_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_dest)
         }
         if (p_mbx->waiting_list_send_first)
         {
-            brrtk_TCBptr pomoc=p_mbx->waiting_list_send_first;
+            brrtk_TCBptr help_var=p_mbx->waiting_list_send_first;
             p_mbx->waiting_list_send_first=  p_mbx->waiting_list_send_first->pNext;
             p_mbx->waiting_list_send_first->pPrev=NULL;
             if (!p_mbx->waiting_list_send_first)
             {
                 p_mbx->waiting_list_send_last=NULL;
             }
-            if (pomoc->pTimeCB)
+            if (help_var->pTimeCB)
             {
-                if (pomoc->brrtk_task_Priority < MED_BND_RM)
+                if (help_var->brrtk_task_Priority < MED_BND_RM)
                 {
-                    insert_TCB_in_Medium_list(pomoc);
+                    insert_TCB_in_Medium_list(help_var);
                 }
                 else
                 {
-                    insert_TCB_in_RM_list(pomoc);
+                    insert_TCB_in_RM_list(help_var);
                 }
             }
             else
             {
-                if (pomoc->brrtk_task_Priority > 0)
+                if (help_var->brrtk_task_Priority > 0)
                 {
-                    insert_TCB_in_Medium_list(pomoc);
+                    insert_TCB_in_Medium_list(help_var);
                 }
                 else
                 {
-                    insert_TCB_in_EDF_list(pomoc);
+                    insert_TCB_in_EDF_list(help_var);
                 }
             }
-            pomoc->brrtk_task_state=READY;
+            help_var->brrtk_task_state=READY;
             setSchedulerStarted(); 
         }
         return 1;
@@ -505,7 +505,7 @@ long int  BR_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned lon
     if (timeout_ms > 0)
     {
         p_mbx->timeout_lwIP=timeout_ms;
-        ubaci_mailbox_u_timeout_listu(p_mbx);
+        add_mailbox_to_timeout_list(p_mbx);
     }
     while(1)
     {
@@ -527,36 +527,36 @@ long int  BR_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned lon
             }
             if (p_mbx->waiting_list_send_first)
             {
-                brrtk_TCBptr pomoc=p_mbx->waiting_list_send_first;
+                brrtk_TCBptr help_var=p_mbx->waiting_list_send_first;
                 p_mbx->waiting_list_send_first=  p_mbx->waiting_list_send_first->pNext;
                 p_mbx->waiting_list_send_first->pPrev=NULL;
                 if (!p_mbx->waiting_list_send_first)
                 {
                     p_mbx->waiting_list_send_last=NULL;
                 }
-                if (pomoc->pTimeCB)
+                if (help_var->pTimeCB)
                 {
-                    if (pomoc->brrtk_task_Priority < MED_BND_RM)
+                    if (help_var->brrtk_task_Priority < MED_BND_RM)
                     {
-                        insert_TCB_in_Medium_list(pomoc);
+                        insert_TCB_in_Medium_list(help_var);
                     }
                     else
                     {
-                        insert_TCB_in_RM_list(pomoc);
+                        insert_TCB_in_RM_list(help_var);
                     }
                 }
                 else
                 {
-                    if (pomoc->brrtk_task_Priority > 0)
+                    if (help_var->brrtk_task_Priority > 0)
                     {
-                        insert_TCB_in_Medium_list(pomoc);
+                        insert_TCB_in_Medium_list(help_var);
                     }
                     else
                     {
-                        insert_TCB_in_EDF_list(pomoc);
+                        insert_TCB_in_EDF_list(help_var);
                     }
                 }
-                pomoc->brrtk_task_state=READY;
+                help_var->brrtk_task_state=READY;
                 setBlockingCall();
                 brrtk_scheduler();
             }
@@ -613,36 +613,36 @@ char Mailbox_timeouted(brrtk_MBXCBptr p_mbx)
     
     if (p_mbx->waiting_list_recieve_first)
     {
-        brrtk_TCBptr pomoc=p_mbx->waiting_list_recieve_first;
+        brrtk_TCBptr help_var=p_mbx->waiting_list_recieve_first;
         p_mbx->waiting_list_recieve_first=  p_mbx->waiting_list_recieve_first->pNext;
         p_mbx->waiting_list_recieve_first->pPrev=NULL;
         if (!p_mbx->waiting_list_recieve_first)
         {
             p_mbx->waiting_list_recieve_last=NULL;
         }
-        if (pomoc->pTimeCB)
+        if (help_var->pTimeCB)
         {
-            if (pomoc->brrtk_task_Priority < MED_BND_RM)
+            if (help_var->brrtk_task_Priority < MED_BND_RM)
             {
-                insert_TCB_in_Medium_list(pomoc);
+                insert_TCB_in_Medium_list(help_var);
             }
             else
             {
-                insert_TCB_in_RM_list(pomoc);
+                insert_TCB_in_RM_list(help_var);
             }
         }
         else
         {
-            if (pomoc->brrtk_task_Priority > 0)
+            if (help_var->brrtk_task_Priority > 0)
             {
-                insert_TCB_in_Medium_list(pomoc);
+                insert_TCB_in_Medium_list(help_var);
             }
             else
             {
-                insert_TCB_in_EDF_list(pomoc);
+                insert_TCB_in_EDF_list(help_var);
             }
         }
-        pomoc->brrtk_task_state=READY;
+        help_var->brrtk_task_state=READY;
         setSchedulerStarted();
         return 1;
     }
