@@ -40,12 +40,12 @@ typedef struct brrtk_MBXCB
     
 }  MBXCB;
 
-extern void BR_Create_Mbx (brrtk_MBXCBptr p_mbx,unsigned char msg_lngt,unsigned int num_of_msgs,void * mbx_buffer);
-extern void BR_Send_Mbx(brrtk_MBXCBptr p_mbx, void * p_mail);
-extern char BR_Send_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_mail);
-extern void BR_Recieve_Mbx (brrtk_MBXCBptr p_mbx, void * p_dest);
-extern long int BR_Recieve_Mbx_wait(brrtk_MBXCBptr p_mbx, void * p_dest,unsigned long timeout_ms);
-extern char BR_Recieve_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_dest);
+extern void BRRTK_Create_Mbx (brrtk_MBXCBptr p_mbx,unsigned char msg_lngt,unsigned int num_of_msgs,void * mbx_buffer);
+extern void BRRTK_Send_Mbx(brrtk_MBXCBptr p_mbx, void * p_mail);
+extern char BRRTK_Send_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_mail);
+extern void BRRTK_Recieve_Mbx (brrtk_MBXCBptr p_mbx, void * p_dest);
+extern long int BRRTK_Recieve_Mbx_wait(brrtk_MBXCBptr p_mbx, void * p_dest,unsigned long timeout_ms);
+extern char BRRTK_Recieve_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_dest);
 extern long int mbx_timeout_tick_refresh(void);
 char Mailbox_timeouted(brrtk_MBXCBptr p_mbx);
 

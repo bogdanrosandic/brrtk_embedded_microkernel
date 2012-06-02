@@ -183,7 +183,7 @@ long int mbx_timeout_tick_refresh(void)
 }
 
 
-void BR_Create_Mbx (brrtk_MBXCBptr p_mbx,unsigned char msg_lngt,unsigned int num_of_msgs,void * mbx_buffer)
+void BRRTK_Create_Mbx (brrtk_MBXCBptr p_mbx,unsigned char msg_lngt,unsigned int num_of_msgs,void * mbx_buffer)
 {
     p_mbx->message_lenght=msg_lngt;
     p_mbx->number_of_messages=num_of_msgs;
@@ -194,7 +194,7 @@ void BR_Create_Mbx (brrtk_MBXCBptr p_mbx,unsigned char msg_lngt,unsigned int num
     p_mbx->read_pointer=mbx_buffer;
 }
 
-void BR_Send_Mbx(brrtk_MBXCBptr p_mbx, void * p_mail)
+void BRRTK_Send_Mbx(brrtk_MBXCBptr p_mbx, void * p_mail)
 {
     
     while (1)
@@ -286,7 +286,7 @@ void BR_Send_Mbx(brrtk_MBXCBptr p_mbx, void * p_mail)
     }
 }
 
-void BR_Recieve_Mbx (brrtk_MBXCBptr p_mbx, void * p_dest)
+void BRRTK_Recieve_Mbx (brrtk_MBXCBptr p_mbx, void * p_dest)
 {
     while(1)
     {
@@ -377,7 +377,7 @@ void BR_Recieve_Mbx (brrtk_MBXCBptr p_mbx, void * p_dest)
     }
 }
 
-char BR_Send_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_mail)
+char BRRTK_Send_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_mail)
 {
     if (p_mbx->avaliable_space)
     {
@@ -439,7 +439,7 @@ char BR_Send_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_mail)
     }
 } 
   
-char BR_Recieve_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_dest)
+char BRRTK_Recieve_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_dest)
 {
     if (p_mbx->avaliable_space!=p_mbx->number_of_messages)
     {
@@ -499,7 +499,7 @@ char BR_Recieve_Mbx_ISR (brrtk_MBXCBptr p_mbx, void * p_dest)
     }
 }
 
-long int  BR_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned long timeout_ms)
+long int  BRRTK_Recieve_Mbx_wait (brrtk_MBXCBptr p_mbx, void * p_dest, unsigned long timeout_ms)
 {
     brrtk_global_disable_interrupts();
     if (timeout_ms > 0)
