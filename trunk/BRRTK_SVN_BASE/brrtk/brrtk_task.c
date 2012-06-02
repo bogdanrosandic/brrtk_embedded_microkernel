@@ -381,7 +381,7 @@ brrtk_TCBptr BRRTK_CreateNewTask_aperiodic(void (*task)(void * arg  ), void *  p
     BR_FreeMem_TCB=pomoc->pNext;
     pomoc->brrtk_task_pc=task;
     pomoc->brrtk_task_sp=ptos;
-    pomoc->brrtk_task_sp=initialize_stack(  (int) (task),ptos );
+    
     pomoc->brrtk_task_state=READY;
     pomoc->brrtk_task_Priority=0;
     
@@ -400,7 +400,7 @@ brrtk_TCBptr BRRTK_CreateNewTask_aperiodic(void (*task)(void * arg  ), void *  p
     pomoc_vreme->brrtk_task_deadline_counter=deadline_cnt;
     pomoc_vreme->brrtk_task_deadlines_counter=0;
     
-     
+    pomoc->brrtk_task_sp=initialize_stack(  (int) (task),ptos );
     insert_TCB_in_EDF_list(pomoc);
     
     num_of_created_tasks++;
@@ -432,7 +432,6 @@ brrtk_TCBptr BRRTK_CreateNewTask_aperiodic_medium(void (*task)(void * arg ), voi
 
     pomoc->brrtk_task_pc=task;
     pomoc->brrtk_task_sp=ptos;
-    pomoc->brrtk_task_sp=initialize_stack(  (int) (task),ptos );
     pomoc->brrtk_task_state=READY;
     pomoc->brrtk_task_Priority=Priority;
       
@@ -454,8 +453,8 @@ brrtk_TCBptr BRRTK_CreateNewTask_aperiodic_medium(void (*task)(void * arg ), voi
     pomoc_vreme->brrtk_task_deadline_counter=deadline_cnt;
     pomoc_vreme->brrtk_task_deadlines_counter=0;
     
-    
-     insert_TCB_in_Medium_list(pomoc);
+    pomoc->brrtk_task_sp=initialize_stack(  (int) (task),ptos );
+    insert_TCB_in_Medium_list(pomoc);
     
     
     num_of_created_tasks++;
@@ -485,7 +484,7 @@ brrtk_TCBptr BRRTK_CreateNewTask_periodic(void (*task)(void * arg ), void *  pto
     
     pomoc->brrtk_task_pc=task;
     pomoc->brrtk_task_sp=ptos;
-    pomoc->brrtk_task_sp=initialize_stack(  (long int) (task),ptos );
+    
     pomoc->brrtk_task_state=READY;
     pomoc->brrtk_task_Priority=Priority;
       
@@ -501,7 +500,7 @@ brrtk_TCBptr BRRTK_CreateNewTask_periodic(void (*task)(void * arg ), void *  pto
     pomoc_vreme->brrtk_task_ready_counter=rdy_cnt;
     pomoc_vreme->brrtk_task_deadlines_counter=0;
         
-    
+    pomoc->brrtk_task_sp=initialize_stack(  (long int) (task),ptos );
     if (BR_TimeTCB_List==NULL){
         BR_TimeTCB_List=pomoc_vreme;
         BR_TimeTCB_List->pNext=NULL;
