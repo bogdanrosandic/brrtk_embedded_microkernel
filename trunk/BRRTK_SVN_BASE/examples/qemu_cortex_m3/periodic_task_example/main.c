@@ -7,14 +7,14 @@
  */
 
 /*TARGET SPECIFIC--> LM3S8962*/
-#include "inc/hw_types.h"
-#include "inc/hw_memmap.h"
-#include "inc/hw_ints.h"
+//#include "inc/hw_types.h"
+//#include "inc/hw_memmap.h"
+//#include "inc/hw_ints.h"
 
-#include "driverlib/systick.h"
-#include "driverlib/sysctl.h"
-#include "driverlib/interrupt.h"
-#include "driverlib/timer.h"
+//#include "driverlib/systick.h"
+//#include "driverlib/sysctl.h"
+//#include "driverlib/interrupt.h"
+//#include "driverlib/timer.h"
 /*TARGET SPECIFIC--> LM3S8962*/
 
 #include "brrtk_platform.h"
@@ -33,7 +33,7 @@ void P1Task(void * arg);               /* Function prototypes for task code */
 void P2Task(void * arg);
 void P3Task(void * arg);
 
-void main( void )
+int main( void )
 {
       
     Hardware_Init();
@@ -42,7 +42,7 @@ void main( void )
     BRRTK_CreateNewTask_periodic(P2Task,  &P2Stk[P2STACKSIZE], 2,10);
     BRRTK_CreateNewTask_periodic(P3Task,  &P3Stk[P3STACKSIZE], 3,20);
     BRRTK_Run();
-    
+    return 0;
 }
 
 

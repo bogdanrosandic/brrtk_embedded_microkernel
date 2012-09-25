@@ -1,25 +1,21 @@
 
-
-        AREA    |.text|, CODE, READONLY
-        THUMB
+.syntax unified
+.text
+.thumb
         
-        EXPORT initialize_stack_idle
-        EXPORT initialize_stack
-        EXPORT context_switch
-        EXPORT SVCall_handler
-        EXPORT save_context
-        EXPORT go_to_scheduler
-        EXPORT save_context_ISR
-        
-       
-
-        
+.global initialize_stack_idle
+.global initialize_stack
+.global context_switch
+.global SVCall_handler
+.global save_context
+.global go_to_scheduler
+.global save_context_ISR
         
 
-
-initialize_stack_idle
+.thumb_func
+initialize_stack_idle:
       
-      pop  {r9}
+      pop  {r9} 
       pop  {r10} 
       mov r11, sp
       mov sp, r1
@@ -49,8 +45,8 @@ initialize_stack_idle
       
       bx lr
 
-
-initialize_stack
+.thumb_func
+initialize_stack:
       
      
       mov r11, sp
@@ -79,8 +75,8 @@ initialize_stack
       
       
       bx lr
-      
-context_switch
+.thumb_func      
+context_switch:
         
        mov sp,r0
        cpsie i
@@ -88,8 +84,8 @@ context_switch
        svc #0
        
    
-      
-SVCall_handler
+.thumb_func      
+SVCall_handler:
 
       pop {R11}
       pop {R10}
@@ -110,8 +106,8 @@ SVCall_handler
       pop {R4}
       
       bx  lr     
-     
-save_context
+.thumb_func     
+save_context:
       
       
                   sub r13,r13,#4
@@ -167,8 +163,8 @@ save_context
       
       bx LR
       
-
-go_to_scheduler
+.thumb_func
+go_to_scheduler:
 
       pop {r3}
       pop {r2}
@@ -187,8 +183,8 @@ go_to_scheduler
       
       bx lr
 
-
-save_context_ISR
+.thumb_func
+save_context_ISR:
       
       
       pop {r3}
@@ -210,6 +206,5 @@ save_context_ISR
       push {r3}
       
       bx LR 
-      
+.end      
 
-      END
