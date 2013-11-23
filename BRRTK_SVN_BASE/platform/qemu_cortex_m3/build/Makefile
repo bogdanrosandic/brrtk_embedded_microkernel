@@ -1,10 +1,12 @@
-BRRTK_ROOT_DIR =/home/qemu_code_sourcery/brrtk_qemu/brrtk_embedded_microkernel/trunk/BRRTK_SVN_BASE
- # Define the symbols we might want to change:
+#MODIFY PATHS
+BRRTK_ROOT_DIR =/home/bogdan/brrtk_svn/brrtk_embedded_microkernel/trunk/BRRTK_SVN_BASE
+CODE_SOURCERY =/home/bogdan/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI
+
+# Define the symbols we might want to change:
     CC	:= arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mthumb
-#-mcpu=cortex-m3 -mthumb
     AS	:= arm-none-eabi-as 
     LD	:= arm-none-eabi-ld
-    CFLAGS := -g -c
+    CFLAGS := -g -c 
     LFLAGS := -T brrtk.ld  
     SOURCE_BRRTK    := $(BRRTK_ROOT_DIR)/brrtk/brrtk_utilities.c \
 	$(BRRTK_ROOT_DIR)/brrtk/brrtk_task.c \
@@ -14,15 +16,19 @@ BRRTK_ROOT_DIR =/home/qemu_code_sourcery/brrtk_qemu/brrtk_embedded_microkernel/t
 	$(BRRTK_ROOT_DIR)/platform/qemu_cortex_m3/brrtk_platform.c \
 	$(BRRTK_ROOT_DIR)/examples/qemu_cortex_m3/periodic_task_example/main.c \
 	$(BRRTK_ROOT_DIR)/examples/qemu_cortex_m3/periodic_task_example/startup_keil.s \
-	$(BRRTK_ROOT_DIR)/platform/qemu_cortex_m3/brrtk_platform_asm_keil.s 
-
+	$(BRRTK_ROOT_DIR)/platform/qemu_cortex_m3/brrtk_platform_asm_keil.s \
+	
+	
     INCLUDES := -I$(BRRTK_ROOT_DIR)/app \
 	-I$(BRRTK_ROOT_DIR)/brrtk \
 	-I$(BRRTK_ROOT_DIR)/platform 
-    LINCLUDES := -L/home/renesas/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-linux-gnueabi/4.6.3/ \
-	-L/home/renesas/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-linux-gnueabi/4.6.3/thumb2/ \
-	-L/home/renesas/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/arm-none-linux-gnueabi/libc/thumb2/usr/lib/
-    OBJECTS	:= *.o
+    LINCLUDES := -L/home/bogdan/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_EABI/lib/gcc/arm-none-eabi/4.6.3/ \
+	-L$(CODE_SOURCERY)/lib/gcc/arm-none-eabi/4.6.3/thumb2/ \
+	-L$(CODE_SOURCERY)/arm-none-eabi/libc/thumb2/usr/lib/ \
+	-L$(CODE_SOURCERY)/arm-none-eabi/lib/thumb2/
+	
+      
+    OBJECTS	:= *.o $(CODE_SOURCERY)/lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
     
     my_program: $(OBJECTS)
 	$(LD) $(LINCLUDES) $(LFLAGS) -o  my_program.elf $(OBJECTS) 
@@ -37,3 +43,4 @@ BRRTK_ROOT_DIR =/home/qemu_code_sourcery/brrtk_qemu/brrtk_embedded_microkernel/t
 #$ 
 #$ 
 #$ arm-none-eabi-objcopy -O binary add.elf add.bin
+
