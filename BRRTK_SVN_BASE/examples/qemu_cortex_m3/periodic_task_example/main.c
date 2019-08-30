@@ -16,6 +16,7 @@
 //#include "driverlib/interrupt.h"
 //#include "driverlib/timer.h"
 /*TARGET SPECIFIC--> LM3S8962*/
+#include <stdio.h>
 
 #include "brrtk_platform.h"
 #include "brrtk_task.h"
@@ -35,8 +36,10 @@ void P3Task(void * arg);
 
 int main( void )
 {
-      
+    
     Hardware_Init();
+    printf("Hello world\r\n");
+    //while(1){}
     BRRTK_Initialize();
     BRRTK_CreateNewTask_periodic(P1Task,  &P1Stk[P1STACKSIZE], 1,5);
     BRRTK_CreateNewTask_periodic(P2Task,  &P2Stk[P2STACKSIZE], 2,10);
@@ -45,7 +48,10 @@ int main( void )
     return 0;
 }
 
-
+#ifndef __NO_SYSTEM_INIT
+void SystemInit()
+{}
+#endif
 
 void P1Task(void * arg)
 {

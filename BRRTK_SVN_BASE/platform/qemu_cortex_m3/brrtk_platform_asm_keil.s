@@ -1,8 +1,12 @@
+# 1 "/home/bogdan/BOGDAN/Projects/brrtk_embedded_microkernel/BRRTK_SVN_BASE/platform/qemu_cortex_m3/brrtk_platform_asm_keil.S"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/home/bogdan/BOGDAN/Projects/brrtk_embedded_microkernel/BRRTK_SVN_BASE/platform/qemu_cortex_m3/brrtk_platform_asm_keil.S"
 
 .syntax unified
 .text
 .thumb
-        
+
 .global initialize_stack_idle
 .global initialize_stack
 .global context_switch
@@ -10,19 +14,19 @@
 .global save_context
 .global go_to_scheduler
 .global save_context_ISR
-        
+
 
 .thumb_func
 initialize_stack_idle:
-      
-      pop  {r9} 
-      pop  {r10} 
+
+      pop {r9}
+      pop {r10}
       mov r11, sp
       mov sp, r1
-      mov  r7,#0x01000000
+      mov r7,#0x01000000
       push {r7}
       push {r0}
-      mov  r7,#0
+      mov r7,#0
       push {r7}
       push {r7}
       push {r7}
@@ -39,22 +43,22 @@ initialize_stack_idle:
       push {r7}
       mov r0,sp
       mov sp, r11
-      
+
       push {r10}
       push {r9}
-      
+
       bx lr
 
 .thumb_func
 initialize_stack:
-      
-     
+
+
       mov r11, sp
       mov sp, r1
-      mov  r7,#0x01000000
+      mov r7,#0x01000000
       push {r7}
       push {r0}
-      mov  r7,#0
+      mov r7,#0
       push {r7}
       push {r7}
       push {r7}
@@ -71,20 +75,20 @@ initialize_stack:
       push {r7}
       mov r0,sp
       mov sp, r11
-      
-      
-      
+
+
+
       bx lr
-.thumb_func      
+.thumb_func
 context_switch:
-        
+
        mov sp,r0
        cpsie i
-             
+
        svc #0
-       
-   
-.thumb_func      
+
+
+.thumb_func
 SVCall_handler:
 
       pop {R11}
@@ -95,7 +99,7 @@ SVCall_handler:
       pop {R6}
       pop {R5}
       pop {R4}
-      
+
       pop {R11}
       pop {R10}
       pop {R9}
@@ -104,43 +108,43 @@ SVCall_handler:
       pop {R6}
       pop {R5}
       pop {R4}
-      
-      bx  lr     
-.thumb_func     
+
+      bx lr
+.thumb_func
 save_context:
-      
-      
+
+
                   sub r13,r13,#4
-      
+
                   push {r9}
                   push {r8}
                   push {r7}
-      
+
       add r13,r13,#4
       add r13,r13,#4
       add r13,r13,#4
       add r13,r13,#4
-      
+
       pop {r7}
       pop {r8}
-      
+
       MRS r9,PSR
-      ORR r9,r9,#0x01000000                
-      
-                  
-      
+      ORR r9,r9,#0x01000000
+
+
+
                   push {r9}
                   push {r8}
                   push {r7}
-     
+
                   sub r13,r13,#4
       pop {r7}
                   push {r12}
-                  
+
                   sub r13,r13,#4
       pop {r8}
                   push {r3}
-                  
+
                   sub r13,r13,#4
       pop {r9}
                   push {r2}
@@ -154,15 +158,15 @@ save_context:
                   push {r9}
                   push {r10}
                   push {r11}
-      
-      
-      
-      mov  r0,sp
-      
-      
-      
+
+
+
+      mov r0,sp
+
+
+
       bx LR
-      
+
 .thumb_func
 go_to_scheduler:
 
@@ -177,16 +181,16 @@ go_to_scheduler:
       push {r7}
       push {r7}
       push {r7}
-      
+
       push {r2}
       push {r3}
-      
+
       bx lr
 
 .thumb_func
 save_context_ISR:
-      
-      
+
+
       pop {r3}
       pop {r2}
       push {r4}
@@ -197,14 +201,13 @@ save_context_ISR:
       push {r9}
       push {r10}
       push {r11}
-      
-      
-      
-      mov  r0,sp
-      
+
+
+
+      mov r0,sp
+
       push {r2}
       push {r3}
-      
-      bx LR 
-.end      
 
+      bx LR
+.end

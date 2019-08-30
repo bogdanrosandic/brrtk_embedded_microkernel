@@ -1,0 +1,916 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (exit)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-impure.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (__libc_init_array)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (memset)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o)
+                              /tmp/ccRAYxmE.o (symbol from plugin) (printf)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o) (__sinit)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fwalk.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o) (_fwalk)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o) (__retarget_lock_init_recursive)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o) (_malloc_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o) (_vfprintf_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o) (__sread)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wbuf.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-writer.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o) (_write_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (__swsetup_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-closer.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o) (_close_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o) (_fflush_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lseekr.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o) (_lseek_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o) (memchr)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o) (memcpy)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memmove.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o) (memmove)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-mlock.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o) (__malloc_lock)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o) (_free_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o) (_realloc_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-readr.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o) (_read_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o) (errno)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fstatr.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o) (_fstat_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-isattyr.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o) (_isatty_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-closer.o) (_close)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(fstat.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fstatr.o) (_fstat)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(isatty.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-isattyr.o) (_isatty)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(lseek.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lseekr.o) (_lseek)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(read.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-readr.o) (_read)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o) (_sbrk)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(write.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-writer.o) (_write)
+/home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+                              /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+errno               0x4               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+__lock___env_recursive_mutex
+                    0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+IdleStk             0x400             /tmp/ccTMREeF.o (symbol from plugin)
+P2Stk               0x100             /tmp/ccRAYxmE.o (symbol from plugin)
+P1Stk               0x100             /tmp/ccRAYxmE.o (symbol from plugin)
+Num_of_ticks        0x4               /tmp/ccz91FhE.o (symbol from plugin)
+__lock___at_quick_exit_mutex
+                    0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+P3Stk               0x100             /tmp/ccRAYxmE.o (symbol from plugin)
+__lock___dd_hash_mutex
+                    0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+ .data          0x0000000000000000        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .comment       0x0000000000000000      0x341 /tmp/ccGSpwoadebugobj
+ .text          0x0000000000000000        0x0 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc6j3dsE.o
+ .bss           0x0000000000000000        0x0 /tmp/cc6j3dsE.o
+ .data          0x0000000000000000        0x0 /tmp/ccAiPzyE.o
+ .bss           0x0000000000000000        0x0 /tmp/ccAiPzyE.o
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x28 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000       0x18 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000       0x18 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000        0xc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x1c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x1c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000000000000       0x38 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x2 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x2 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x2 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x2 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x2 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x1a /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x14 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x24 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x2a0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000000000000000       0x3c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x0000000000000000       0x1c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000000       0x28 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .text.memmove  0x0000000000000000       0x34 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000000       0x28 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x0000000000000000       0x4c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000000000       0x3c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-readr.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xb8 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x0000000000000000       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000000000       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-msizer.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(fstat.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(fstat.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(fstat.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(isatty.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(isatty.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(isatty.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(lseek.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(lseek.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(lseek.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(read.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(read.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(read.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(write.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(write.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(write.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtend.o
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtend.o
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtend.o
+ .text          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtn.o
+ .data          0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtn.o
+ .bss           0x0000000000000000        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000020000 xr
+RAM              0x0000000010000000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+LOAD /tmp/ccGSpwoadebugobj
+LOAD /tmp/cc1bWO39.ltrans0.ltrans.o
+LOAD /tmp/cc6j3dsE.o
+LOAD /tmp/ccAiPzyE.o
+START GROUP
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtend.o
+LOAD /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtn.o
+
+.text           0x0000000000000000     0x15e8
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0x44 /tmp/cc6j3dsE.o
+                0x0000000000000000                __isr_vector
+ *(.text*)
+ .text          0x0000000000000044       0x40 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+ .text          0x0000000000000084       0x74 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+                0x0000000000000084                _mainCRTStartup
+                0x0000000000000084                _start
+ .text.Idle_Task
+                0x00000000000000f8        0x2 /tmp/cc1bWO39.ltrans0.ltrans.o
+ *fill*         0x00000000000000fa        0x2 
+ .text.Scheduling
+                0x00000000000000fc       0x88 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .text.brrtk_scheduler
+                0x0000000000000184       0x48 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .text.BRRTK_Task_Suspend
+                0x00000000000001cc       0x2c /tmp/cc1bWO39.ltrans0.ltrans.o
+ .text.P3Task   0x00000000000001f8        0x8 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .text.P2Task   0x0000000000000200        0x8 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .text.P1Task   0x0000000000000208        0x8 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .text.BRRTK_CreateNewTask_periodic
+                0x0000000000000210       0xc4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .text.SystemInit
+                0x00000000000002d4        0x2 /tmp/cc1bWO39.ltrans0.ltrans.o
+                0x00000000000002d4                SystemInit
+ *fill*         0x00000000000002d6        0x2 
+ .text.startup.main
+                0x00000000000002d8      0x130 /tmp/cc1bWO39.ltrans0.ltrans.o
+                0x00000000000002d8                main
+ .text          0x0000000000000408       0x2c /tmp/cc6j3dsE.o
+                0x0000000000000408                Reset_Handler
+                0x0000000000000430                DebugMon_Handler
+                0x0000000000000430                HardFault_Handler
+                0x0000000000000430                SysTick_Handler
+                0x0000000000000430                PendSV_Handler
+                0x0000000000000430                NMI_Handler
+                0x0000000000000430                UsageFault_Handler
+                0x0000000000000430                Default_Handler
+                0x0000000000000430                MemManage_Handler
+                0x0000000000000430                SVC_Handler
+                0x0000000000000430                DEF_IRQHandler
+                0x0000000000000430                BusFault_Handler
+ .text          0x0000000000000434      0x152 /tmp/ccAiPzyE.o
+                0x0000000000000434                initialize_stack_idle
+                0x0000000000000476                initialize_stack
+                0x00000000000004a8                context_switch
+                0x00000000000004ae                SVCall_handler
+                0x00000000000004e0                save_context
+                0x0000000000000544                go_to_scheduler
+                0x0000000000000562                save_context_ISR
+ *fill*         0x0000000000000586        0x2 
+ .text.exit     0x0000000000000588       0x28 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o)
+                0x0000000000000588                exit
+ .text.__libc_init_array
+                0x00000000000005b0       0x48 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
+                0x00000000000005b0                __libc_init_array
+ .text.memset   0x00000000000005f8       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x00000000000005f8                memset
+ .text.printf   0x0000000000000608       0x30 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o)
+                0x0000000000000608                printf
+                0x0000000000000608                iprintf
+ .text.std      0x0000000000000638       0x48 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x0000000000000680        0xc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000000000680                _cleanup_r
+ .text.__sfmoreglue
+                0x000000000000068c       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x000000000000068c                __sfmoreglue
+ .text.__sfp_lock_acquire
+                0x00000000000006b8        0xc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000000006b8                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x00000000000006c4        0xc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000000006c4                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0x00000000000006d0        0xc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000000006d0                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0x00000000000006dc        0xc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000000006dc                __sinit_lock_release
+ .text.__sinit  0x00000000000006e8       0x70 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000000006e8                __sinit
+ .text.__sfp    0x0000000000000758       0x8c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000000000758                __sfp
+ .text._fwalk_reent
+                0x00000000000007e4       0x3c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fwalk.o)
+                0x00000000000007e4                _fwalk_reent
+ .text.__retarget_lock_init_recursive
+                0x0000000000000820        0x2 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000000000820                __retarget_lock_init_recursive
+ .text.__retarget_lock_acquire_recursive
+                0x0000000000000822        0x2 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000000000822                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x0000000000000824        0x2 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000000000824                __retarget_lock_release_recursive
+ *fill*         0x0000000000000826        0x2 
+ .text._malloc_r
+                0x0000000000000828       0xb4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000000828                _malloc_r
+ .text.__sfputc_r
+                0x00000000000008dc       0x2a /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x0000000000000906       0x24 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000000906                __sfputs_r
+ *fill*         0x000000000000092a        0x2 
+ .text._vfprintf_r
+                0x000000000000092c      0x250 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x000000000000092c                _vfiprintf_r
+                0x000000000000092c                _vfprintf_r
+ .text._printf_common
+                0x0000000000000b7c       0xec /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000000b7c                _printf_common
+ .text._printf_i
+                0x0000000000000c68      0x22c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000000c68                _printf_i
+ .text._sbrk_r  0x0000000000000e94       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000000000e94                _sbrk_r
+ .text.__sread  0x0000000000000eb4       0x22 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000000000eb4                __sread
+ .text.__swrite
+                0x0000000000000ed6       0x38 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000000000ed6                __swrite
+ .text.__sseek  0x0000000000000f0e       0x24 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000000000f0e                __sseek
+ .text.__sclose
+                0x0000000000000f32        0x8 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000000000f32                __sclose
+ *fill*         0x0000000000000f3a        0x2 
+ .text.__swbuf_r
+                0x0000000000000f3c       0xa4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wbuf.o)
+                0x0000000000000f3c                __swbuf_r
+ .text._write_r
+                0x0000000000000fe0       0x24 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-writer.o)
+                0x0000000000000fe0                _write_r
+ .text.__swsetup_r
+                0x0000000000001004       0xdc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o)
+                0x0000000000001004                __swsetup_r
+ .text._close_r
+                0x00000000000010e0       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-closer.o)
+                0x00000000000010e0                _close_r
+ .text.__sflush_r
+                0x0000000000001100      0x10c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x0000000000001100                __sflush_r
+ .text._fflush_r
+                0x000000000000120c       0x78 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x000000000000120c                _fflush_r
+ .text._lseek_r
+                0x0000000000001284       0x24 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lseekr.o)
+                0x0000000000001284                _lseek_r
+ .text.__swhatbuf_r
+                0x00000000000012a8       0x48 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x00000000000012a8                __swhatbuf_r
+ .text.__smakebuf_r
+                0x00000000000012f0       0x80 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x00000000000012f0                __smakebuf_r
+ .text.memchr   0x0000000000001370       0x1c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+                0x0000000000001370                memchr
+ .text.__malloc_lock
+                0x000000000000138c        0xc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x000000000000138c                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000000001398        0xc /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x0000000000001398                __malloc_unlock
+ .text._free_r  0x00000000000013a4       0x98 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                0x00000000000013a4                _free_r
+ .text._read_r  0x000000000000143c       0x24 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-readr.o)
+                0x000000000000143c                _read_r
+ .text._fstat_r
+                0x0000000000001460       0x24 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fstatr.o)
+                0x0000000000001460                _fstat_r
+ .text._isatty_r
+                0x0000000000001484       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-isattyr.o)
+                0x0000000000001484                _isatty_r
+ .text._close   0x00000000000014a4       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
+                0x00000000000014a4                _close
+ .text._fstat   0x00000000000014b4       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(fstat.o)
+                0x00000000000014b4                _fstat
+ .text._isatty  0x00000000000014c4       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(isatty.o)
+                0x00000000000014c4                _isatty
+ .text._lseek   0x00000000000014d4       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(lseek.o)
+                0x00000000000014d4                _lseek
+ .text._read    0x00000000000014e4       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(read.o)
+                0x00000000000014e4                _read
+ .text._sbrk    0x00000000000014f4       0x1c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+                0x00000000000014f4                _sbrk
+ .text._write   0x0000000000001510       0x10 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(write.o)
+                0x0000000000001510                _write
+ .text._exit    0x0000000000001520        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+                0x0000000000001520                _exit
+ *(.init)
+ .init          0x0000000000001524        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000000001524                _init
+ .init          0x0000000000001528        0x8 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x0000000000001530        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000000001530                _fini
+ .fini          0x0000000000001534        0x8 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x000000000000153c        0xe /tmp/cc1bWO39.ltrans0.ltrans.o
+ *fill*         0x000000000000154a        0x2 
+ .rodata._global_impure_ptr
+                0x000000000000154c        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x000000000000154c                _global_impure_ptr
+ .rodata.__sf_fake_stderr
+                0x0000000000001550       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000000001550                __sf_fake_stderr
+ .rodata.__sf_fake_stdin
+                0x0000000000001570       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000000001570                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x0000000000001590       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000000001590                __sf_fake_stdout
+ .rodata._vfprintf_r.str1.1
+                0x00000000000015b0       0x11 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .rodata._printf_i.str1.1
+                0x00000000000015c1       0x22 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ *(.eh_frame*)
+ *fill*         0x00000000000015e3        0x1 
+ .eh_frame      0x00000000000015e4        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x00000000000015e4        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtend.o
+
+.glue_7         0x00000000000015e8        0x0
+ .glue_7        0x00000000000015e8        0x0 linker stubs
+
+.glue_7t        0x00000000000015e8        0x0
+ .glue_7t       0x00000000000015e8        0x0 linker stubs
+
+.vfp11_veneer   0x00000000000015e8        0x0
+ .vfp11_veneer  0x00000000000015e8        0x0 linker stubs
+
+.v4_bx          0x00000000000015e8        0x0
+ .v4_bx         0x00000000000015e8        0x0 linker stubs
+
+.iplt           0x00000000000015e8        0x0
+ .iplt          0x00000000000015e8        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000000015e8                __exidx_start = .
+
+.ARM.exidx      0x00000000000015e8        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00000000000015e8        0x8 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+                0x00000000000015f0                __exidx_end = .
+                0x00000000000015f0                __etext = ALIGN (0x4)
+
+.rel.dyn        0x00000000000015f0        0x0
+ .rel.iplt      0x00000000000015f0        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+
+.data           0x0000000010000000       0x6c load address 0x00000000000015f0
+                0x0000000010000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data._impure_ptr
+                0x0000000010000000        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000010000000                _impure_ptr
+ .data.impure_data
+                0x0000000010000004       0x60 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x0000000010000064                . = ALIGN (0x4)
+                0x0000000010000064                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000010000064                PROVIDE (__preinit_array_end = .)
+                0x0000000010000064                . = ALIGN (0x4)
+                0x0000000010000064                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000010000064        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000010000068                PROVIDE (__init_array_end = .)
+                0x0000000010000068                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x0000000010000068        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x000000001000006c                . = ALIGN (0x4)
+                0x000000001000006c                __data_end__ = .
+
+.igot.plt       0x000000001000006c        0x0 load address 0x000000000000165c
+ .igot.plt      0x000000001000006c        0x0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+
+.bss            0x000000001000006c      0x8f0 load address 0x000000000000165c
+                0x000000001000006c                . = ALIGN (0x4)
+                0x000000001000006c                __bss_start__ = .
+ *(.bss*)
+ .bss           0x000000001000006c       0x1c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+ .bss.BR_Active_TCB
+                0x0000000010000088        0x4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_DelayCBArray
+                0x000000001000008c       0x24 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_FreeMem_AperiodCB
+                0x00000000100000b0        0x4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_FreeMem_PeriodCB
+                0x00000000100000b4        0x4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_FreeMem_TCB
+                0x00000000100000b8        0x4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_Ready_Medium_List
+                0x00000000100000bc        0x4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_Ready_Periodic_List
+                0x00000000100000c0        0x4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_TCBArray
+                0x00000000100000c4       0xe0 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_TimeCBArray
+                0x00000000100001a4       0x90 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.BR_TimeTCB_List
+                0x0000000010000234        0x4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.IdleStk   0x0000000010000238      0x400 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.P1Stk     0x0000000010000638      0x100 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.P2Stk     0x0000000010000738      0x100 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.P3Stk     0x0000000010000838      0x100 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.brrtk_state_flags
+                0x0000000010000938        0x4 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.num_of_aperiodic_structures
+                0x000000001000093c        0x1 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.num_of_created_tasks
+                0x000000001000093d        0x1 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .bss.num_of_periodic_structures
+                0x000000001000093e        0x1 /tmp/cc1bWO39.ltrans0.ltrans.o
+ *fill*         0x000000001000093f        0x1 
+ .bss.__malloc_free_list
+                0x0000000010000940        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000010000940                __malloc_free_list
+ .bss.__malloc_sbrk_start
+                0x0000000010000944        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000010000944                __malloc_sbrk_start
+ .bss.heap_end.4194
+                0x0000000010000948        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+ *(COMMON)
+ COMMON         0x000000001000094c        0x9 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x000000001000094c                __lock___atexit_recursive_mutex
+                0x000000001000094d                __lock___arc4random_mutex
+                0x000000001000094e                __lock___env_recursive_mutex
+                0x000000001000094f                __lock___sinit_recursive_mutex
+                0x0000000010000950                __lock___malloc_recursive_mutex
+                0x0000000010000951                __lock___at_quick_exit_mutex
+                0x0000000010000952                __lock___dd_hash_mutex
+                0x0000000010000953                __lock___tz_mutex
+                0x0000000010000954                __lock___sfp_recursive_mutex
+ *fill*         0x0000000010000955        0x3 
+ COMMON         0x0000000010000958        0x4 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+                0x0000000010000958                errno
+                0x000000001000095c                . = ALIGN (0x4)
+                0x000000001000095c                __bss_end__ = .
+
+.heap           0x0000000010000960        0x0
+                0x0000000010000960                __end__ = .
+                0x0000000010000960                PROVIDE (end = .)
+ *(.heap*)
+ .heap          0x0000000010000960        0x0 /tmp/cc6j3dsE.o
+                0x0000000010000960                __HeapLimit = .
+
+.stack_dummy    0x0000000010000960      0xc00
+ *(.stack*)
+ .stack         0x0000000010000960      0xc00 /tmp/cc6j3dsE.o
+                0x0000000010002000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000010001400                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000010002000                PROVIDE (__stack = __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(my_program elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+ .ARM.attributes
+                0x000000000000001d       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x000000000000004a       0x1b /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.attributes
+                0x0000000000000065       0x2b /tmp/cc1bWO39.ltrans0.ltrans.o
+ .ARM.attributes
+                0x0000000000000090       0x1b /tmp/cc6j3dsE.o
+ .ARM.attributes
+                0x00000000000000ab       0x1b /tmp/ccAiPzyE.o
+ .ARM.attributes
+                0x00000000000000c6       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000000f3       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000120       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000000000000014d       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000000000000017a       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o)
+ .ARM.attributes
+                0x00000000000001a7       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000000000001d4       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x0000000000000201       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x000000000000022e       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x000000000000025b       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .ARM.attributes
+                0x0000000000000288       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000000000002b5       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000000002e2       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x000000000000030f       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x000000000000033c       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000000000000369       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x0000000000000396       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x00000000000003c3       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000000000003f0       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x000000000000041d       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x000000000000044a       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000000000000477       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000000000004a4       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000000000004d1       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x00000000000004fe       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000000000000052b       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x0000000000000558       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x0000000000000585       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
+ .ARM.attributes
+                0x00000000000005b2       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(fstat.o)
+ .ARM.attributes
+                0x00000000000005df       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(isatty.o)
+ .ARM.attributes
+                0x000000000000060c       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(lseek.o)
+ .ARM.attributes
+                0x0000000000000639       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(read.o)
+ .ARM.attributes
+                0x0000000000000666       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0000000000000693       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(write.o)
+ .ARM.attributes
+                0x00000000000006c0       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000000006ed       0x2d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtend.o
+ .ARM.attributes
+                0x000000000000071a       0x1d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crtn.o
+
+.comment        0x0000000000000000       0x76
+ .comment       0x0000000000000000       0x76 /tmp/cc1bWO39.ltrans0.ltrans.o
+                                         0x77 (size before relaxing)
+
+.debug_info     0x0000000000000000     0x49da
+ .debug_info    0x0000000000000000     0x4373 /tmp/ccGSpwoadebugobj
+                0x0000000000000000                brrtk_utilities.c.a6f6282a
+                0x000000000000015c                brrtk_task.c.e12c34d9
+                0x00000000000010cd                mailbox.c.6508835b
+                0x0000000000001f41                scheduler.c.ecd7cd14
+                0x0000000000002afe                semaphore.c.3ea955f3
+                0x0000000000003949                brrtk_platform.c.04d7a21b
+                0x00000000000039d3                main.c.a68f94bb
+ .debug_info    0x0000000000004373      0x61b /tmp/cc1bWO39.ltrans0.ltrans.o
+ .debug_info    0x000000000000498e       0x26 /tmp/cc6j3dsE.o
+ .debug_info    0x00000000000049b4       0x26 /tmp/ccAiPzyE.o
+
+.debug_abbrev   0x0000000000000000      0xd75
+ .debug_abbrev  0x0000000000000000      0xba4 /tmp/ccGSpwoadebugobj
+ .debug_abbrev  0x0000000000000ba4      0x1a9 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000d4d       0x14 /tmp/cc6j3dsE.o
+ .debug_abbrev  0x0000000000000d61       0x14 /tmp/ccAiPzyE.o
+
+.debug_line     0x0000000000000000     0x1559
+ .debug_line    0x0000000000000000      0xc29 /tmp/ccGSpwoadebugobj
+ .debug_line    0x0000000000000c29      0x73a /tmp/cc1bWO39.ltrans0.ltrans.o
+ .debug_line    0x0000000000001363       0xc9 /tmp/cc6j3dsE.o
+ .debug_line    0x000000000000142c      0x12d /tmp/ccAiPzyE.o
+
+.debug_str      0x0000000000000000     0x1712
+ .debug_str     0x0000000000000000     0x149f /tmp/ccGSpwoadebugobj
+                                       0x3593 (size before relaxing)
+ .debug_str     0x000000000000149f      0x103 /tmp/cc1bWO39.ltrans0.ltrans.o
+                                        0x168 (size before relaxing)
+ .debug_str     0x00000000000015a2       0xf7 /tmp/cc6j3dsE.o
+ .debug_str     0x0000000000001699       0x79 /tmp/ccAiPzyE.o
+                                         0xec (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x3fc
+ .debug_loc     0x0000000000000000      0x3fc /tmp/cc1bWO39.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000       0x98
+ .debug_aranges
+                0x0000000000000000       0x58 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000058       0x20 /tmp/cc6j3dsE.o
+ .debug_aranges
+                0x0000000000000078       0x20 /tmp/ccAiPzyE.o
+
+.debug_ranges   0x0000000000000000      0x1d0
+ .debug_ranges  0x0000000000000000      0x1d0 /tmp/cc1bWO39.ltrans0.ltrans.o
+
+.debug_frame    0x0000000000000000      0xa3c
+ .debug_frame   0x0000000000000000      0x100 /tmp/cc1bWO39.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000100       0x28 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000128       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000154       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000174       0x74 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-printf.o)
+ .debug_frame   0x00000000000001e8      0x14c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000000000000334       0x54 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000000388       0xb0 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000438       0x30 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000468       0xac /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x0000000000000514       0x60 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000000574       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000005a0       0x88 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000000628       0x40 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000000668       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000694       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x00000000000006c0       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-closer.o)
+ .debug_frame   0x00000000000006ec       0x5c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000000748       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x0000000000000774       0x58 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000000007cc       0x28 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00000000000007f4       0x30 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000824       0x38 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x000000000000085c       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-readr.o)
+ .debug_frame   0x0000000000000888       0x5c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000000008e4       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x0000000000000910       0x2c /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x000000000000093c       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
+ .debug_frame   0x000000000000095c       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(fstat.o)
+ .debug_frame   0x000000000000097c       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(isatty.o)
+ .debug_frame   0x000000000000099c       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(lseek.o)
+ .debug_frame   0x00000000000009bc       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(read.o)
+ .debug_frame   0x00000000000009dc       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(sbrk.o)
+ .debug_frame   0x00000000000009fc       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(write.o)
+ .debug_frame   0x0000000000000a1c       0x20 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+
+.stab           0x0000000000000000       0x9c
+ .stab          0x0000000000000000       0x24 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
+ .stab          0x0000000000000024       0x18 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(fstat.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000003c       0x18 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(isatty.o)
+                                         0x24 (size before relaxing)
+ .stab          0x0000000000000054       0x18 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(lseek.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000006c       0x18 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(read.o)
+                                         0x24 (size before relaxing)
+ .stab          0x0000000000000084       0x18 /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(write.o)
+                                         0x24 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x14d
+ .stabstr       0x0000000000000000      0x14d /home/bogdan/Downloads/gcc-arm-none-eabi-8-2019-q3-update-linux/gcc-arm-none-eabi-8-2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(close.o)
